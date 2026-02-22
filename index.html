@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タイトルタイトル</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Poppins:wght@400;700&family=Viga&display=swap" rel="stylesheet">
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
+    <!-- CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <main class="main">
+        <div class="container">
+            <div class="tab">
+                <div class="tab__container js_tab">
+                    <!-- anchor-nameと--active-anchorが結びつく -->
+                    <ul class="tab__head" style="--active-anchor: --tab-1;">
+                        <li>
+                            <button class="tab__btn js-tabBtn is_active" style="anchor-name: --tab-1;">農園</button>
+                        </li>
+                        <li>
+                            <button class="tab__btn js-tabBtn" style="anchor-name: --tab-2;">牧場</button>
+                        </li>
+                        <li>
+                            <button class="tab__btn js-tabBtn" style="anchor-name: --tab-3;">オンライン販売</button>
+                        </li>
+                    </ul>
+                    <ul class="tab__main">
+                        <li class="tab__content js_tabContent is_active">
+                            <p class="tab__text">
+                                私たちは、「持続可能な農業」を掲げて、自然の恵みに感謝しながら、農作物を育てています。<br>無農薬で、体にも環境にも優しく、季節ごとに異なる品種を育て、提供しています。<br>ぜひ一度、農園にお越し頂き、自分の手で収穫した新鮮な野菜、果物をお召し上がりください。
+                            </p>
+                        </li>
+                        <li class="tab__content js_tabContent">
+                            <p class="tab__text">
+                                私たちの牧場は、自然と動物との共存を尊重し、持続可能な農業の原則に基づいて運営されています。<br>広々とした環境で、動物たちとのふれ合いを通じて、自然の恵みと動物の尊さを感じ、<br>心温まるひとときを過ごしていただけます。
+                            </p>
+                        </li>
+                        <li class="tab__content js_tabContent">
+                            <p class="tab__text">
+                                自然の恵み農園から直接お届けする、新鮮で美味しい農産物と<br>手作りのジャムやバターなどの加工品を提供しています。<br>自然の恩恵をご自宅でお楽しみいただけます。
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+
+    <!-- footer -->
+    <footer class="footer">
+    </footer><!-- footer end -->
+
+    <!-- js -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
